@@ -38,17 +38,9 @@ export const items = [
       </SvgIcon>
     ),
   },
+
   {
-    title: "Categoria",
-    path: "/account",
-    icon: (
-      <SvgIcon fontSize="small">
-        <UserIcon />
-      </SvgIcon>
-    ),
-  },
-  {
-    title: "Subcategorias",
+    title: "Categorias-Subcategorias",
     path: "/settings",
     icon: (
       <SvgIcon fontSize="small">
@@ -56,30 +48,22 @@ export const items = [
       </SvgIcon>
     ),
   },
-  {
-    title: "Tipos",
-    path: "/auth/login",
-    icon: (
-      <SvgIcon fontSize="small">
-        <LockClosedIcon />
-      </SvgIcon>
-    ),
-  },
-  {
-    title: "Inventario",
-    path: "/auth/register",
-    icon: (
-      <SvgIcon fontSize="small">
-        <UserPlusIcon />
-      </SvgIcon>
-    ),
-  },
+
   {
     title: "Inventario",
     path: "/404",
     icon: (
       <SvgIcon fontSize="small">
         <XCircleIcon />
+      </SvgIcon>
+    ),
+  },
+  {
+    title: "Login",
+    path: "/auth/login",
+    icon: (
+      <SvgIcon fontSize="small">
+        <LockClosedIcon />
       </SvgIcon>
     ),
   },

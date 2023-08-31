@@ -72,12 +72,10 @@ export const SideNav = (props) => {
                 Ticketly
               </Typography>
             </div>
-            <SvgIcon fontSize="small" sx={{ color: "neutral.500" }}>
-              <ChevronUpDownIcon />
-            </SvgIcon>
           </Box>
         </Box>
         <Divider sx={{ borderColor: "neutral.700" }} />
+
         <Box
           component="nav"
           sx={{
@@ -138,7 +136,7 @@ export const SideNav = (props) => {
             target="_blank"
             variant="contained"
           >
-            Click HERE
+            Click Aqui
           </Button>
         </Box>
       </Box>
