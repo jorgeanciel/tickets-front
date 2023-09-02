@@ -22,7 +22,7 @@ export const items = [
   },
   {
     title: "Tickets",
-    path: "/customers",
+    path: "/tickets",
     icon: (
       <SvgIcon fontSize="small">
         <UsersIcon />
@@ -31,7 +31,7 @@ export const items = [
   },
   {
     title: "Base de conocimientos",
-    path: "/companies",
+    path: "/bc",
     icon: (
       <SvgIcon fontSize="small">
         <ShoppingBagIcon />
@@ -40,8 +40,17 @@ export const items = [
   },
 
   {
-    title: "Categorias-Subcategorias",
-    path: "/settings",
+    title: "Mantenimiento",
+    path: "/mantenimiento",
+    icon: (
+      <SvgIcon fontSize="small">
+        <CogIcon />
+      </SvgIcon>
+    ),
+  },
+  {
+    title: "Usuarios",
+    path: "/usuario",
     icon: (
       <SvgIcon fontSize="small">
         <CogIcon />
